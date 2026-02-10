@@ -1,3 +1,5 @@
+
+
 body{
   margin: 0 0;
   padding: 0 0;
@@ -91,4 +93,278 @@ h1{
   gap: 32px;
   padding: 20px 10vw;
   flex-wrap: wrap;
+  text-decoration: none;
+  color: #292929;
+}
+.sekme a{
+  color: #292929;
+  text-decoration: none;
+}
+.sekme a:hover{
+  cursor: pointer;
+  background-color: palegoldenrod ;
+
+}
+.special{
+  display: flex;
+  gap: 24px;
+  padding: 40px 10vw;
+  align-items: stretch;
+}
+.special-left {
+  display: flex;
+  flex: 2;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+align-self: start;
+justify-content: flex-start;
+  background-color: #c0392b;
+  background-image: url("/assets/iteration-2/cta/kart-1.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  min-height: 320px;
+  padding: 32px;
+}
+.special-right{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 24px ;
+  min-height: 320px;
+}
+.special-card {
+  flex: 1;
+  background: #222;
+  color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  
+
+  .special-content{
+    max-width: fit-content;
+    color: #fff;
+   
+  }
+  .special-content h2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Quattrocento', serif;
+    font-size: 60px;
+    margin: 0 0 0 12px;
+  }
+  .special-content h2 span{
+    display: block;
+  }
+  .special-content p{
+    margin: 0 0 0 16px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .special-content button{
+    background: #fff;
+    border: none;
+    border-radius: 800px;
+    padding: 14px 18px;
+    font-weight: 100;
+    color:#CE2829;    
+  }
+  
+  .card-top{
+    background-image: url("/assets/iteration-2/cta/kart-2.png");
+    background-size: cover;
+    padding-right: 5vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card-bottom{
+    background-image: url("/assets/iteration-2/cta/kart-3.png");
+    background-size:cover;
+    padding-right: 5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #fff;
+
+  }
+  .card-content{
+    padding: 24px;
+    color: #fff;
+    max-width: 60%;
+  }
+  .red{
+   color:  #CE2829; 
+  }
+  .black{
+    color: #000;
+  }
+  .code{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    gap: 10px;
+    
+  }
+  .ack{
+    font-family:'Satisfy', cursive;
+    color:  #CE2829; 
+    
+  }
+  .code .doy{
+    color: #000;
+  }
+
+  .alt-menu{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 10vw;
+  flex-wrap: wrap;
+  color: #292929;
+  border: #FDC913;
+  }
+  .alt-menu a{
+    text-decoration: none;
+    color: #292929;
+    font-size: 17px;
+  }
+  .alt-menu a:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+  }
+
+  .menu-alt{
+    display: flex;
+    justify-content:center ;  
+    gap: 10vw;
+  }
+
+  .menu-item-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .menu-item-title{
+    padding-left: 1vw;
+    text-align:center ;
+  }
+
+  .menu-item-meta{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+  }
+
+  .menu-item-count{
+    padding: 0 0 0 7rem;
+  }
+  .menu-item-count:hover{
+    background-color: antiquewhite;
+  }
+  .menu-item-meta:hover{
+    background-color: antiquewhite;
+  }
+
+  .altta-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem;
+    padding: 2rem;
+    color: white;
+    background-color: #1a1a1a;
+  }
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  
+
+  .ilk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    
+  }
+  .ikon-bir{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  footer h2{
+    color:white;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+  .iki{
+    display: flex;
+    flex-direction: column;
+  }
+  .iki-baslik{
+    padding-top:4rem ;
+  }
+
+.uc-baslik{
+  padding-top: 4rem;
+}
+.uc{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:center;
+}
+.son{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ikon-yazi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.twitter{
+  width: 34px;
+  height: 34px;
+  border-radius: 18px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  
+}
+.twitter:hover{
+  background-color:white;
 }
